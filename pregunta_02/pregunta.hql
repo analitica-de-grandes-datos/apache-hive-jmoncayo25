@@ -26,4 +26,4 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 SELECT letras, fechas, numeros
     FROM datos
 ORDER BY
-    letras, numeros;
+    letras, numeros, fechas;
